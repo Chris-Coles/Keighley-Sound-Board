@@ -7,16 +7,20 @@
 </head>
 <body>
 
-
   <div class="keys">
     <div data-key="70" class="key">
       <kbd>F</kbd>
       <span class="sound">F*** the Oscars</span>
     </div>
+    <div data-key="80" class="key">
+      <kbd>P</kbd>
+      <span class="sound">Play the game</span>
+    </div>
   </div>
 
   <audio data-key="70" src="fucktheoscars.wav"></audio>
-
+  <audio data-key="80" src="playthegame.wav"></audio>
+  
 <script>
   function removeTransition(e) {
     if (e.propertyName !== 'transform') return;
